@@ -98,6 +98,9 @@ font-weight: 600;
  color: rgba(255, 255, 255, 0.5);
 
 } 
+.text4{
+  color: rgba(255, 255, 255, 0.5);
+}
 .text-color2{
   text-align: center;
   width: 60%;
@@ -193,7 +196,8 @@ text{
 height:400px;
 display: flex;
 justify-content: space-between;
-margin-left: 150px;
+margin-left: 50px;
+margin-bottom: 40px;
   }
   .bmi-input-div{ padding: 100px;}
   .text-color3{
@@ -211,12 +215,7 @@ margin-left: 150px;
   .items{
     align-items: center;
   }
-  /* .last-section{
-    width: 1060px;
-height: 782px;
-border: 2px solid red;
-
-  } */
+  
   /* FOOTER STYLES Here */
   .footer{
     background-color:black }
@@ -270,13 +269,7 @@ footer li a{
 .margin{
   align-items: center;
 }
-.last-section{
-  
-  /* width: 800px;
-  height: 752px; */
- /* margin-left: 20px;
- margin-right: 20px; */
-}
+
 .parent-img{
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 400px;;
+    font-style: normal;
+  }
+  .navbar{
+  
+   justify-content:space-between;
+   align-items: center;
+  }
+  .navlist{
+display: flex;
+
+  }
+  .display-flex{
+    display: flex;
+  }
+.nav-item{
+    list-style: none;
+    margin-right:30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+.nav-link2{
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+background: rgb(230, 83, 60);
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius:40px;
+}
+.text-color{
+  color: rgb(255, 255, 255);
+}
+.bgcolor{
+  width: 100%;
+  height: 715px;
+}
+.background{
+   
+    background-color: rgb(17, 17, 17);
+}
+.header{
+   
+font-weight: 700;
+font-size: 2rem;
+color: rgb(230, 83, 60);
+margin-left: 20px;
+}
+.miama{
+  font-family:miama ;
+  font-size: 2.9rem;
+}
+.navbar ,.banner{
+    width: 100%;
+    margin: 0 auto;
+}
+.banner{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+display: flex;
+justify-content: space-between;
+}
+.banner-container{
+  margin-left: 25px;
+  
+}
+.button{
+  width: 180px;
+height: 30px;
+border-radius: 10px;
+/* color: rgb(255, 255, 255); */
+font-family: Inter;
+font-size: 1.25rem;
+font-weight: 400;
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+}
+/* Change Your Habits section  */
+.header-color{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+}
+.text-color2,.text{
+ color: rgba(255, 255, 255, 0.5);
+
+} 
+.text-color2{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5.8rem;
+}
+.div{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+  text-align: center;
+}
+.habit img{
+  border-radius: 50%;
+  width: 85%;
+  border: .4rem rgba(255, 255, 255, 0.1) solid;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.header1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.7rem;
+ 
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+.paragraph{
+  margin: 20px;
+}
+/* Section 2 start here  */
+.section2{
+  display: flex;
+  justify-content: space-between;
+
+}
+ .section2 img{
+  width: 366px;
+height: 312px;
+margin-right:40px ;
+border-radius: 18px;
+background: url(4);
+}
+.bgcolor{
+  visibility: hidden;
+background: rgb(185, 185, 185);
+} 
+.bmi{
+ 
+  margin-left: 60px;
+}
+text{
+  margin-left: 10px;
+}
+
+  .bmisec2{
+  
+    width:100%;
+    background-color: rgb(34, 34, 34);
+height:400px;
+display: flex;
+justify-content: space-between;
+margin: 88px 0px;
+  }
+  .text-color3{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .margin{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+ 
+  }
+  /* .last-section{
+    width: 1060px;
+height: 782px;
+border: 2px solid red;
+
+  } */
+  /* FOOTER STYLES Here */
+  .footer{
+    background-color:black }
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 6rem;
+  padding: 5rem 0;
+}
+footer .logo{
+  font-size: 5rem;
+}
+.link{
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+footer li>a{
+  color: var(--text-secondary-color);
+  font-size: 1.5rem;
+  line-height: 4rem;
+  font-weight: 300;
+}
+footer li a{
+  list-style: none;
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+   
+
+}
+.hr{
+  border: 0.12rem solid;
+  opacity: 20%;
+}
+.copy-text{
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem 0;
+  color: aliceblue;
+}
+.footer-about{
+  grid-column: span 2;
+}
+.links-1{
+  grid-column: span 2;
+}
+.links-2{
+  grid-column: span 2;
+}
+/* trainer Section start here  */
+.margin{
+  align-items: center;
+}
+.last-section{
+  
+  /* width: 800px;
+  height: 752px; */
+ /* margin-left: 20px;
+ margin-right: 20px; */
+}
+.parent-img{
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+ grid-template-columns: repeat(3,1fr);
+ margin: 88px 0px;
+ gap: 10px;
+
+}
+#img{
+ 
+  width:260.67px;
+ 
+  height: 272px;
+
+  border-radius: 12px;
+
+ 
+
+}
